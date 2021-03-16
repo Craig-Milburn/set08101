@@ -9,6 +9,9 @@ function myAngles() {
 		else if (b > 360) {
 			angle = "Value too great";
 		}
+		else if (b == 360) {
+			angle = "Circle";
+		}
 		else if (b > 180) {
 			angle = "Reflex Angle";
 		}
