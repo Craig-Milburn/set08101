@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			p {color:red}
+		</style>
+		<title>SET08101 - Int with DOM - Cont.</title>
+	</head>
+	<body>
+		<p><a href="#" onClick="addMessage();">Click Me</a></p>
+		<h3>OUTPUT:</h3>
+		<p id="redPara">I am RED</p>
+		
+		<script>
+			function addMessage(){
+				document.getElementById("redPara").style.color ="blue";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style type="text/css">
+			p {color:red}
+		</style>
+		<title>SET08101 - Int with DOM - Cont.</title>
+	</head>
+	<body>
+		<p><a href="#" onClick="colourChanger();">Click Me</a></p>
+		<h3>OUTPUT:</h3>
+		<p id="redPara">I am RED</p>
+		
+		<script>
+			var _i=0;
+			var _colors= ["orange", "green", "pink", "red", "blue"];
+			var current="red";
+			
+			function colourChanger(){
+				if(current == "red")
+					current = "blue";
+				else
+					current = _colors[_i];
+					_i++;
+					if(_i == 5)
+						_i = 0;
+					
+				document.getElementById("redPara").style.color = current;
+			}
+		</script>
+	</body>
+</html>
