@@ -6,7 +6,7 @@ body {
 }
 
 header {
-	background: #55d6aa;
+	background: #b4b8ab;
 }
 
 header::after {
@@ -14,13 +14,14 @@ header::after {
 	display: table;
 	clear: both;
 }
-		
+	
 .inplace {
 	float: left;
 }
 
 h2 {
 	color: black;
+	margin-left: 15px;
 }
 
 nav {
@@ -40,11 +41,36 @@ nav a {
 }
 
 nav a:hover {
-	background: #55d6aa;
+	background: #b4b8ab;
 	filter: brightness(85%);
 }
 
 .info {
-	width: 75%;
-	margin: 0 auto;
+	float: left;
+	text-align: justify;
+	width: 50%;
+	margin-left: 150px;
+}
+
+aside {
+  text-align: left;
+  color: black;
+  width: 20%;
+  padding: 15px;
+  margin: 80px;
+  float: right;
+  font-style: italic;
+  background-color: #a26769;
+}
+
+button {
+	background-color: #b4b8ab;
+	border-radius: 15px;
+	padding: 10px 50px;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #b4b8ab;
+	filter: brightness(65%);
 }
