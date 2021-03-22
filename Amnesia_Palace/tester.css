@@ -19,7 +19,7 @@ header::after {
 	float: left;
 }
 
-h2 {
+h1 {
 	color: black;
 	margin-left: 15px;
 }
@@ -50,6 +50,14 @@ nav a:hover {
 	text-align: justify;
 	width: 50%;
 	margin-left: 150px;
+}
+
+.info a {
+	color: white;
+}
+
+.info a:hover {
+	color: grey;
 }
 
 aside {
