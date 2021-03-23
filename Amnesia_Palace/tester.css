@@ -86,3 +86,9 @@ button:hover {
 	background-color: #b4b8ab;
 	filter: brightness(65%);
 }
+
+.story_ {
+	margin-left: 30%;
+	margin-right: 30%;
+	text-align: justify;
+}
