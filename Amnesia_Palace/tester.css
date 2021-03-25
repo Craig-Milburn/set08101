@@ -77,7 +77,7 @@ aside {
 
 button {
 	background-color: #b4b8ab;
-	border-radius: 15px;
+	border-radius: 10px;
 	padding: 10px 50px;
 	font-size: 16px;
 }
@@ -91,4 +91,20 @@ button:hover {
 	margin-left: 30%;
 	margin-right: 30%;
 	text-align: justify;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.btn_five button {
+	width: 40%;
+	margin: 20px;
+}
+
+.btn_five {
+	display: inline-block;
+	justify-content: space-around;
+	text-align: center;
 }

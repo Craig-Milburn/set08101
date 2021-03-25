@@ -1,0 +1,21 @@
+{
+	"firstName": "Jebediah",
+	"lastName": "Springfield",
+	"isAlive": true,
+	"age": 125,
+	"height_cm": 167.2,
+	"address": {
+		"streetAddress": "21 2nd Street",
+		"city": "Springfield",
+		"state": "NY",
+		"postCode": "10021-3100"
+	},
+	"phoneNumber": [{
+		"type": "home",
+		"number": "212 555-1234"
+	}, {
+		"number": "646 555-4567"
+	}],
+	"children": [],
+	"spouse": null
+}
