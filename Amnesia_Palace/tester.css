@@ -108,3 +108,14 @@ img {
 	justify-content: space-around;
 	text-align: center;
 }
+
+.btn_two button {
+	width: 40%;
+	margin: 20px;
+}
+
+.btn_two {
+	text-align: center;
+	margin: 15px;
+}
+
