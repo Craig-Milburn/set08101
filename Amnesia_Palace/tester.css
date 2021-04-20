@@ -65,17 +65,6 @@ nav a:hover {
 	margin-bottom: 20px;
 }
 
-aside {
-  text-align: left;
-  color: black;
-  width: 20%;
-  padding: 15px;
-  margin: 80px;
-  float: right;
-  font-style: italic;
-  background-color: #a26769;
-}
-
 button {
 	background-color: #b4b8ab;
 	border-radius: 10px;
@@ -92,11 +81,33 @@ button:hover {
 	margin-left: 30%;
 	margin-right: 30%;
 	text-align: justify;
+	
 }
+
+.story_:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+aside {
+  text-align: left;
+  color: black;
+  width: 20%;
+  padding: 15px;
+  margin: 80px;
+  float: right;
+  font-style: italic;
+  background-color: #a26769;
+}
+
 
 img {
 	max-height: 100%;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right:auto;
+	display:block;
 }
 
 .btn_five button {
@@ -144,4 +155,19 @@ section p{
 	display: inline-block;
 	justify-content: space-around;
 
+}
+
+@media only screen and (max-width: 1150px) {
+	.story_ {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify; }
+	.info {
+	float: left;
+	width: 50%;
+	margin-left: 50px; }
+	aside {
+	width: 15%;
+	padding: 15px;
+	margin: 50px; }
 }
